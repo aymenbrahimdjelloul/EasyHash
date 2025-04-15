@@ -65,17 +65,6 @@ print(f"Hash (hex): {hash_hex}")
 print(f"Hash (bytes): {hash_bytes}")  
 ~~~
 
-## 📜 Algorithm Overview
-(Briefly summarize how it works, e.g.:)
-
-Padding → Input is padded to a multiple of 512 bits.
-
-Mixing Rounds → Bit shifts, XOR, and modular arithmetic scramble the state.
-
-Finalization → Output is condensed into 16 bytes (128 bits).
-
-(Add a diagram or pseudocode if desired!)
-
 ## ⚠️ Critical Disclaimer
 DO NOT USE FOR SECURITY! EasyHash lacks:
 ❌ Cryptographic analysis → No resistance to advanced attacks.
