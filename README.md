@@ -1,12 +1,18 @@
 # EasyHash 🔐⚡
-A fast and simple 128-bit hashing algorithm written in pure Python, designed for high performance and easy integration. Supports parallel processing for large input datasets.
+EasyHash is a custom-designed 128-bit cryptographic hashing algorithm developed for educational purposes. This project aims to demonstrate the fundamental principles of hash functions, including data integrity verification, deterministic output generation, and resistance to basic collision attacks. While not intended for production-level security, EasyHash serves as a learning tool for understanding hash mechanics, bitwise operations, and cryptographic concepts. 
 
-## 🚀 Features
-- ⚡ **Fast 128-bit hashing** algorithm
-- 🧵 **Multiprocessing** support for large-scale input
-- 📦 Easy to use, extend, and integrate
-- 🧪 Deterministic and consistent output
-- 🧠 Custom-designed for performance-critical applications
+
+## Use Cases (Educational Only):
+
+Demonstrating how hash functions process variable-length input into fixed-length output.
+
+Comparing performance and properties against established algorithms.
+
+Experimenting with custom modifications (e.g., adjusting rounds, mixing operations).
+
+Disclaimer:
+EasyHash is not suitable for real-world cryptographic applications due to its simplified design and lack of rigorous security analysis. For secure hashing, use industry-standard algorithms like SHA-256 or SHA-3.
+
 
 ## 🔧 Usage
 ~~~
