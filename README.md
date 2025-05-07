@@ -34,20 +34,15 @@ This is not a cryptographically secure hashing function. It’s built for speed 
 MIT License
 Here’s a polished and engaging version of your README.md with improved formatting, clarity, and a touch of visual appeal:
 
-EasyHash 🔐⚡
-A custom 128-bit hashing algorithm designed for education and experimentation
+## ⚠️ Note: EasyHash is not secure for real-world cryptography. Use it for learning, testing, or prototyping—not for sensitive data!
 
-EasyHash is a lightweight, 128-bit cryptographic hashing algorithm created to help developers and students understand the core principles of hash functions. It demonstrates key concepts like deterministic output, fixed-length hashing, and basic collision resistance—all while prioritizing simplicity and transparency.
-
-⚠️ Note: EasyHash is not secure for real-world cryptography. Use it for learning, testing, or prototyping—not for sensitive data!
-
-🔍 Features
+## 🔍 Features
 ✔ 128-bit output → Fixed 32-character hexadecimal hash.
 ✔ Deterministic → Same input = same output, every time.
 ✔ Educational → Clean, readable code for studying hash mechanics.
 ✔ Customizable → Easy to modify (rounds, bit ops, mixing functions).
 
-🚀 Use Cases (Educational Only!)
+## 🚀 Use Cases (Educational Only!)
 Learn how hashing works – See step-by-step how input becomes a hash.
 
 Compare with SHA/MD5 – Benchmark speed vs. industry standards.
