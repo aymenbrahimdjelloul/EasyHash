@@ -38,23 +38,6 @@ This is not a cryptographically secure hashing function. It’s built for speed 
 ✔ Educational → Clean, readable code for studying hash mechanics.
 ✔ Customizable → Easy to modify (rounds, bit ops, mixing functions).
 
-## 🚀 Use Cases (Educational Only!)
-Learn how hashing works – See step-by-step how input becomes a hash.
-
-Compare with SHA/MD5 – Benchmark speed vs. industry standards.
-
-Experiment freely – Tweak the algorithm and observe changes.
-
-~~~
-from easyhash import easyhash_hex, easyhash
-
-data = b"hello world!"  
-hash_hex = easyhash_hex(data)  # Returns 128-bit hex string
-hash_bytes = easyhash(data)    # Returns raw bytes
-
-print(f"Hash (hex): {hash_hex}")  
-print(f"Hash (bytes): {hash_bytes}")  
-~~~
 
 ## ⚠️ Critical Disclaimer
 DO NOT USE FOR SECURITY! EasyHash lacks:
