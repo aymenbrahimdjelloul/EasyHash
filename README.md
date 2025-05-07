@@ -30,11 +30,7 @@ print(f"hash : {hash_}")
 ## ⚠️ Disclaimer
 This is not a cryptographically secure hashing function. It’s built for speed and uniqueness, not encryption or authentication.
 
-## 📄 License
-MIT License
-Here’s a polished and engaging version of your README.md with improved formatting, clarity, and a touch of visual appeal:
-
-## ⚠️ Note: EasyHash is not secure for real-world cryptography. Use it for learning, testing, or prototyping—not for sensitive data!
+#### ⚠️ Note: EasyHash is not secure for real-world cryptography. Use it for learning, testing, or prototyping—not for sensitive data!
 
 ## 🔍 Features
 ✔ 128-bit output → Fixed 32-character hexadecimal hash.
